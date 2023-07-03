@@ -4,6 +4,12 @@
         font-weight: bold;
         color: rgb(46, 221, 221);
         margin-bottom: 0px;
+        transition: color 0.2s;
+        cursor: pointer;
+    }
+
+    .tilte:hover {
+        color: rgb(189, 89, 12);
     }
 
     .product-name {
@@ -39,6 +45,15 @@
         cursor: pointer;
         font-weight: bold;
         font-size: 13px;
+        transition: background-color 0.2s, opacity 0.2s;
+    }
+
+    .add-to-cart:hover {
+        background-color: rgb(199, 174, 13);        
+    }
+
+    .add-to-cart:active {
+        opacity: 0.6;
     }
 
     .buy-now {
@@ -52,16 +67,23 @@
         cursor: pointer;
         font-weight: bold;
         font-size: 13px;
+        transition: background-color 0.2s, opacity 0.2s;
+    }
+
+    .buy-now:hover {
+        background-color: rgb(226, 156, 6);        
+    }
+
+    .buy-now:active {
+        opacity: 0.6;
     }
 </style>
 
 
 
-<p class="tilte">
-    <a href="https://amazon.com">
-        Back to Amazon
-    </a>
-</p>
+<a class="tilte" href="https://www.amazon.com.tr/">
+    Back to Amazon
+</a>
 
 <p class="product-name">
     Nike Black Running Shoes
