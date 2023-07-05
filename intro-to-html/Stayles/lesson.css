@@ -1,20 +1,4 @@
-<button class="stretch-button">
-  Stretch
-</button>
-
-<button class="three-d-button">
-  3D click
-</button>
-
-<button class="stretch-button">One</button>
-<button class="stretch-button">Two</button>
-<button class="stretch-button">Three</button>
-
-
-
-
-<style>
-  .stretch-button {
+.stretch-button {
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 16px;
@@ -90,4 +74,3 @@
     margin-left: 0px;
     margin-right: 0px;
     }
-</style>

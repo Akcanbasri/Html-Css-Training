@@ -1,0 +1,131 @@
+p {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.video-title {
+  font-weight: bold;
+  font-size: 18px;
+  width: 280px;
+  line-height: 24px;
+  margin-bottom: 2px;
+  ;
+}
+
+.video-stats {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  line-height: 20px;
+  margin-bottom: 20px;
+  margin-top: 0;
+
+}
+
+.video-author {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.video-desc {
+  font-family: Arial;
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  line-height: 21px;
+  width: 280px;
+  margin-bottom: 100px;
+
+}
+
+.apple-text {
+  margin-bottom: 50px;
+  font-size: 14px;
+  text-align: center;
+  background-color: rgb(227, 65, 64);
+  color: white;
+  padding-top: 18px;
+  padding-bottom: 18px;
+
+}
+
+.span-example {
+  color: rgb(227, 65, 64);
+}
+
+.span-example:hover {
+  text-decoration: underline;
+}
+
+.shop-link {
+  cursor: pointer;
+}
+
+.shop-link:hover {
+  text-decoration: underline;
+}
+
+.tahoma-text {
+  font-family: Tahoma;
+  font-size: 24px;
+  padding-top: 18px;
+  font-weight: bold;
+  padding-bottom: 18px;
+}
+
+.deal-text {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Arial;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.sales-text {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: Arial;
+  color: red;
+  line-height: 30px;
+}
+
+.html-text {
+  font-family: Verdana;
+  font-size: 24px;
+  width: 280px;
+  font-weight: bold;
+}
+
+.beginer-text {
+  font-family: Verdana;
+  font-size: 13px;
+  width: 280px;
+  font-weight: normal;
+  line-height: 30px;
+  color: gray;
+}
+
+.course-introduction {
+  font-family: Verdana;
+  font-size: 15px;
+  width: 280px;
+  font-weight: normal;
+  line-height: 30px;
+  color: black;
+}
+
+.get-started-button {
+  background-color: green;
+  color: white;
+  font-size: 14px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-top: 15px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+
+}
