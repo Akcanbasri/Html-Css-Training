@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Animals</title>
+  <style>
+    .profile-picture {
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 14px;
+    }
+    .photo {
+      width: 50px;
+      border-radius: 50%;
+    }
+    
+    p {
+      display: inline-block;
+      margin: 0px;
+      margin-bottom: 2px;
+    }
+
+    .profile-view {
+      display: flex; /* .profile-view'ları bir satırda hizalamak için flex kullanıyoruz */
+      align-items: center; /* Yükseklik hizalamasını dikey ortala */
+      width: 364px;
+      margin-bottom: 10px;
+    }
+
+    .profile-info {
+      display: inline-block;
+    }
+    .user-name {
+      font-size: 15px;
+      font-weight: bold;
+    }
+    .name {
+      font-size: 12px;
+      color: rgb(96, 96, 96);
+    }
+    .populer {
+      font-size: 12px;
+      color: rgb(96, 96, 96);
+    }
+    .follow-button {
+      color: white;
+      background-color: rgb(66, 154, 226);
+      font-size: 15px;
+      border: none;
+      border-radius: 3px;
+      padding: 5px 10px;
+    }
+    .follow-div {
+      display: inline-block;
+      margin-left: auto; /* Otomatik sola hizala */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="profile-view">
+    <div class="profile-picture">
+      <img class="photo" src="thumbnail\cat.jpg" style="width: 60px;">
+    </div>
+    <div class="profile-info">
+      <div class="user-name">
+        Oliver
+      </div>
+      <div class="name">
+        Oliver the cat
+      </div>
+      <div class="populer">
+        Populer
+      </div>
+    </div>
+    <div class="follow-div">
+      <button class="follow-button">Follow</button>
+    </div>
+  </div>
+
+  <div class="profile-view">
+    <div class="profile-picture">
+      <img class="photo" src="thumbnail\cat2.jpg" style="width: 60px;">
+    </div>
+    <div class="profile-info">
+      <div class="user-name">
+        Mimi
+      </div>
+      <div class="name">
+        Sleepy cat
+      </div>
+      <div class="populer">
+        Populer
+      </div>
+    </div>
+    <div class="follow-div">
+      <button class="follow-button">Follow</button>
+    </div>
+  </div>
+
+  <div class="profile-view">
+    <div class="profile-picture">
+      <img class="photo" src="thumbnail\dog.jpg" style="width: 60px;">
+    </div>
+    <div class="profile-info">
+      <div class="user-name">
+        Rex
+      </div>
+      <div class="name">
+        Happy Bulldog
+      </div>
+      <div class="populer">
+        Populer
+      </div>
+    </div>
+    <div class="follow-div">
+      <button class="follow-button">Follow</button>
+    </div>
+  </div>
+</body>
+</html>
