@@ -23,30 +23,16 @@
     }
 
     .thumbnail {
-      width: 300px;
-      display: block;
+      width: 100%;
     }
 
     .search-box {
       display: block;
     }
 
-    .video-preview {
-      width: 300px;
-      display: inline-block;
-      vertical-align: top;
-      margin-right: 17px;
-    }
-
-    .channel-pictures {
-      display: inline-block;
-      width: 50px;
-      vertical-align: top;
-    }
-
-    .video-info {
-      display: inline-block;
-      width: 200px;
+    .video-info-grid {
+      display: grid;
+      grid-template-columns: 50px 1fr;
     }
 
     .profile-picture {
@@ -76,63 +62,178 @@
     .channel-name {
       margin-bottom: 3px;
     }
+
+   .video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 20px;
+   }
   </style>
 </head>
 
 <body>
   <input class="search-box" type="text" placeholder="Search">
 
-  <div class="video-preview">
 
-    <div class="thumbnail-row">
-      <img class="thumbnail" src="thumbnail\1.webp">
-    </div>
+  <div class="video-grid">
+    <div class="video-preview">
 
-    <div>
-      <div class="channel-pictures">
-        <img src="channel-pictures\evrim-agaci.jpg" class="profile-picture">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnail\1.webp">
       </div>
-
-      <div class="video-info">
-
-        <p class="video-title">
-          Suleyle basri yapay zeka ile ilgileniyor
-        </p>
-        <p class="channel-name">
-          Sulecan
-        </p>
-        <p class="view">
-          1.2M views &#183; 1 year ago
-        </p>
+  
+      <div class="video-info-grid">
+        <div class="channel-pictures">
+          <img src="channel-pictures\evrim-agaci.jpg" class="profile-picture">
+        </div>
+  
+        <div class="video-info">
+  
+          <p class="video-title">
+            Suleyle basri yapay zeka ile ilgileniyorrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+          </p>
+          <p class="channel-name">
+            Sulecan
+          </p>
+          <p class="view">
+            1.2M views &#183; 1 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="video-preview">
+  
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnail\2.webp">
+      </div>
+  
+      <div class="video-info-grid">
+        <div class="channel-pictures">
+          <img src="channel-pictures\evrim-agaci.jpg" class="profile-picture">
+        </div>
+  
+        <div class="video-info">
+  
+          <p class="video-title">
+            Suleyle basri yapay zeka ile ilgileniyor
+          </p>
+          <p class="channel-name">
+            BasriCAN
+          </p>
+          <p class="view">
+            15M views &#183; 2 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="video-preview">
+  
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnail\1.webp">
+      </div>
+  
+      <div class="video-info-grid">
+        <div class="channel-pictures">
+          <img src="channel-pictures\evrim-agaci.jpg" class="profile-picture">
+        </div>
+  
+        <div class="video-info">
+  
+          <p class="video-title">
+            Suleyle basri yapay zeka ile ilgileniyorrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+          </p>
+          <p class="channel-name">
+            Sulecan
+          </p>
+          <p class="view">
+            1.2M views &#183; 1 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="video-preview">
+  
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnail\2.webp">
+      </div>
+  
+      <div class="video-info-grid">
+        <div class="channel-pictures">
+          <img src="channel-pictures\evrim-agaci.jpg" class="profile-picture">
+        </div>
+  
+        <div class="video-info">
+  
+          <p class="video-title">
+            Suleyle basri yapay zeka ile ilgileniyor
+          </p>
+          <p class="channel-name">
+            BasriCAN
+          </p>
+          <p class="view">
+            15M views &#183; 2 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="video-preview">
+  
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnail\1.webp">
+      </div>
+  
+      <div class="video-info-grid">
+        <div class="channel-pictures">
+          <img src="channel-pictures\evrim-agaci.jpg" class="profile-picture">
+        </div>
+  
+        <div class="video-info">
+  
+          <p class="video-title">
+            Suleyle basri yapay zeka ile ilgileniyorrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+          </p>
+          <p class="channel-name">
+            Sulecan
+          </p>
+          <p class="view">
+            1.2M views &#183; 1 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="video-preview">
+  
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnail\2.webp">
+      </div>
+  
+      <div class="video-info-grid">
+        <div class="channel-pictures">
+          <img src="channel-pictures\evrim-agaci.jpg" class="profile-picture">
+        </div>
+  
+        <div class="video-info">
+  
+          <p class="video-title">
+            Suleyle basri yapay zeka ile ilgileniyor
+          </p>
+          <p class="channel-name">
+            BasriCAN
+          </p>
+          <p class="view">
+            15M views &#183; 2 year ago
+          </p>
+        </div>
       </div>
     </div>
   </div>
-
-  <div class="video-preview">
-
-    <div class="thumbnail-row">
-      <img class="thumbnail" src="thumbnail\2.webp">
-    </div>
-
-    <div>
-      <div class="channel-pictures">
-        <img src="channel-pictures\evrim-agaci.jpg" class="profile-picture">
-      </div>
-
-      <div class="video-info">
-
-        <p class="video-title">
-          Suleyle basri yapay zeka ile ilgileniyor
-        </p>
-        <p class="channel-name">
-          BasriCAN
-        </p>
-        <p class="view">
-          15M views &#183; 2 year ago
-        </p>
-      </div>
-    </div>
-  </div>
+  
 
 </body>
 
